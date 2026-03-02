@@ -15,6 +15,15 @@ Microsoft Orleans기반의 매칭 대기열 프로그램이다.<br>
 # 개발 목적
 매치메이킹 처럼 동시 참가로 경쟁 조건이 생기기 쉬운문제를 Grain모델로 단순화하여 방지<br>
 채널명을 키로 체크하여 순차적으로 Grain 요청을 처리하여 순차적으로 처리하여 락없이 수행하기위함
+<details>
+  <summary>코드 보기</summary>
+  타이머를 이용해 주기적으로 RunMatch를 실행하도록 추가<br>
+  <img width="489" height="450" alt="image" src="https://github.com/user-attachments/assets/8b08150b-8969-470d-92f3-c485b9c9fcd1" /><br>
+  <img width="451" height="323" alt="image" src="https://github.com/user-attachments/assets/a9a42733-da86-486d-bda4-ea95378e280a" />
+</details>
+
+
+
 
 
 # 테스트
